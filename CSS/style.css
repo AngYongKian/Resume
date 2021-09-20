@@ -158,7 +158,9 @@ td{
 
   
   /* Footer Section */
-  
+  .footer-des{
+    color: #3B0000;
+  }
   
   .social-icon {
     margin: 20px 10px;
