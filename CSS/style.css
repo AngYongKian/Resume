@@ -1,0 +1,178 @@
+
+body {
+    font-family: "Montserrat";
+    text-align: center;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat-Bold";
+  }
+  
+  p {
+    font-size: 1.5rem;
+    color: #D4ECDD;
+  }
+
+  h1{
+      margin: 25px 0;
+  }
+  
+  /* Headings */
+  
+  .big-heading {
+    padding: 10px 0 0 0;
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+  }
+  
+  .section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  /* Containers */
+  
+  .container-fluid{
+    padding: 7% 15%;
+  }
+  
+  /* Sections */
+  
+  .colored-section {
+    background-color: #345B63;
+    color: #fff;
+  }
+  
+  .white-section {
+    background-color: #fff;
+  }
+  
+  /* Navigation Bar */
+  
+  .navbar {
+    padding: 0 0 4.5rem;
+  }
+  
+  .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-item {
+    padding: 0 18px;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+  }
+  
+  
+  /* Title Section */
+  
+  #title {
+    background-color: #345B63;
+    color: #fff;
+    text-align: left;
+  }
+  
+  #title .container-fluid {
+    padding: 3% 15% 7%;
+  }
+  
+  /* Title Image */
+  
+  .title-image {
+    width: 60%;
+    position: absolute;
+    right: 30%;
+  }
+
+  /* .Description{
+      margin-bottom: 25%;
+  } 
+   */
+  /* Education Section */
+  
+  #education-title{
+    font-size: 5rem;
+  }
+
+  .education-row{
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+  .mmu{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+  }
+  .smk{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+  }
+ 
+ .education-des{
+     color: #22577A;
+ }
+  
+  /* Work Section */
+  
+  #work {
+    background-color:#22577A;
+  }
+
+  .MyWork{
+      text-align:left;
+  }
+  #work-title{
+      text-align: center;
+    font-size: 5rem;
+  }
+
+  .work-row{
+    margin: 100px auto;
+    line-height: 2;
+}
+
+td{
+    font-size: 1.5rem;
+    color: #D4ECDD;
+    padding:0.5rem;
+}
+  
+  /* SKill*/
+#skill-title{
+    text-align: center;
+  font-size: 5rem;
+}
+
+.skill-table{
+  margin-top: 70px;
+}
+  
+
+  
+  /* Footer Section */
+  
+  
+  .social-icon {
+    margin: 20px 10px;
+  }
+  
+  @media (max-width: 1028px) {
+  
+    #title {
+      text-align: center;
+    }
+  
+    .title-image {
+      position: static;
+      transform: rotate(0);
+    }
+  }
+  
